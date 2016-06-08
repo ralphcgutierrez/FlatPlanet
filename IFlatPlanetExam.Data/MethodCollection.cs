@@ -92,11 +92,11 @@ namespace IFlatPlanetExam.Data
             return press.count;
         }
 
+	// Get Database connectionstring 
          public string AppConnectionString()
         {
             String connStr;
             return connStr = System.Configuration.ConfigurationSettings.AppSettings["AppConnectionString"];
-            //return "Data Source=.\\SQLEXPRESS;Initial Catalog=IFlatPlanet; Integrated Security=True";
         }
     }
 }
