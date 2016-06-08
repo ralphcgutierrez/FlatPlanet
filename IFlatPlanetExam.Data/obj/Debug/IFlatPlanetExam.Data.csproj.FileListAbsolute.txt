@@ -1,0 +1,16 @@
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.csprojResolveAssemblyReference.cache
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.dll.config
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.dll
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.pdb
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Model.dll
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Model.pdb
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.dll
+C:\Exam\IFlatPlanetExam.Web\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.pdb
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.dll.config
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.dll
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Data.pdb
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Model.dll
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\bin\Debug\IFlatPlanetExam.Model.pdb
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.dll
+C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Data\obj\Debug\IFlatPlanetExam.Data.pdb

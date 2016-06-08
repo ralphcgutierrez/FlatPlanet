@@ -1,0 +1,36 @@
+﻿@model IFlatPlanetExam.Model.PressViewModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h1>Total number of clicked!</h1>
+        <div class="form-group">
+            <div class="col-md-10">
+                <h2>@Model.count</h2>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @if (@Model.count == 10)
+                {
+                    <input id="submit" type="submit" value="Save" class="btn btn-default" disabled="disabled" />
+                }
+                else
+                {
+                    <input id="submit" type="submit" value="Save" class="btn btn-default"/>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @*Script bundle for Flatplanet page*@
+    @Scripts.Render("~/bundles/iflat.planet")
+}
