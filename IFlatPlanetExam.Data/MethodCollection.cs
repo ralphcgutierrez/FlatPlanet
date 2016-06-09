@@ -36,9 +36,9 @@ namespace IFlatPlanetExam.Data
                     affectedRow = cmd.ExecuteNonQuery();
                 }
 
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    Console.Write("Error {0}", e.InnerException);
+                    throw new Exception(ex.Message);
                 }
                 finally
                 {
@@ -81,9 +81,9 @@ namespace IFlatPlanetExam.Data
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.Write("Error {0}", e.InnerException);
+                throw new Exception(ex.Message);
             }
             finally
             {

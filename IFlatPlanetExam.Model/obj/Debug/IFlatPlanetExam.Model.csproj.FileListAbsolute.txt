@@ -6,3 +6,7 @@ C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Model\bin\Debug\IFl
 C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Model\bin\Debug\IFlatPlanetExam.Model.pdb
 C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Model\obj\Debug\IFlatPlanetExam.Model.dll
 C:\Users\Ralph\Source\Workspaces\IFlatPlanet\IFlatPlanetExam.Model\obj\Debug\IFlatPlanetExam.Model.pdb
+C:\Users\Ralph\Source\Workspaces\FlatPlanet\IFlatPlanetExam.Model\bin\Debug\IFlatPlanetExam.Model.dll
+C:\Users\Ralph\Source\Workspaces\FlatPlanet\IFlatPlanetExam.Model\bin\Debug\IFlatPlanetExam.Model.pdb
+C:\Users\Ralph\Source\Workspaces\FlatPlanet\IFlatPlanetExam.Model\obj\Debug\IFlatPlanetExam.Model.dll
+C:\Users\Ralph\Source\Workspaces\FlatPlanet\IFlatPlanetExam.Model\obj\Debug\IFlatPlanetExam.Model.pdb

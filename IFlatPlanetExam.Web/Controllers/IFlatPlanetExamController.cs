@@ -21,7 +21,14 @@ namespace IFlatPlanetExam.Web.Controllers
         public ActionResult Index()
         {
             PressViewModel press = new PressViewModel();
-            press.count = method.Count();
+            try
+            {
+                press.count = method.Count();
+            }
+            catch (Exception ex)
+            {
+                return View("Error",new HandleErrorInfo(ex,"Index","Index"));
+            }
             return View(press);
         }
 
@@ -32,11 +39,16 @@ namespace IFlatPlanetExam.Web.Controllers
         [HttpPost]
         public ActionResult Insert()
         {
-            int affectedRow = method.Insert(increment);
+            try
+            {
+               method.Insert(increment);
+            }
+            catch (Exception ex)
+            {
+                return View("Error", new HandleErrorInfo(ex, "Index", "Index"));   
+            }
             return View();
         }
-
-
 
     }
 }

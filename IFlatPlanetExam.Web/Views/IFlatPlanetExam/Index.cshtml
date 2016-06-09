@@ -6,22 +6,26 @@
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h1>Total number of clicked!</h1>
-        <div class="form-group">
-            <div class="col-md-10">
-                <h2>@Model.count</h2>
-            </div>
-        </div>
+        @if (@Model.count == 0)
+        {
+            <h1> Click the button below to start. </h1>
+        }
+        else
+        {
+            <h1>Total number of clicked: @Model.count </h1>
+        }
 
         <div class="form-group">
             <div class="col-md-10">
                 @if (@Model.count == 10)
                 {
-                    <input id="submit" type="submit" value="Save" class="btn btn-default" disabled="disabled" />
+                    <h5 class="alert-danger">You've reached the maximum number of clicks.</h5>
+                    <br />
+                    <input id="submit" type="submit" value="Not available" class="btn btn-default" disabled="disabled" />
                 }
                 else
                 {
-                    <input id="submit" type="submit" value="Save" class="btn btn-default"/>
+                    <input id="submit" type="submit" value="Click me" class="btn btn-default" />
                 }
             </div>
         </div>
